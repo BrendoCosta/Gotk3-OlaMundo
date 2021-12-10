@@ -1,6 +1,6 @@
 /*
- * "Olá Mundo!" escrito em Go utilizando o binding Gotk3 para o
- * toolkit de interface gráfica GTK+3
+ * "Olá Mundo!" em Go com os bindings do gotk3 para o toolkit
+ * de interfaces gráficas GTK 3
  *
  * Documentação em: https://pkg.go.dev/github.com/gotk3/gotk3/gtk
  *
@@ -20,7 +20,7 @@ import (
 
 // ID da aplicação
 
-const appId = "com.github.brendocosta.gotk3-sandbox"
+const appId = "com.github.brendocosta.gotk3-olamundo"
 
 func checarErros(e error) {
 
